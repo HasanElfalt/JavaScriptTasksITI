@@ -1,0 +1,50 @@
+
+<html lang="en">
+<head>
+
+    <title>Task1</title>
+
+</head>
+<body>
+    
+            <div>
+                <label for="name" style="font-weight:bold">Employee Name: </label>
+                <input id="emp_name" name="name" required type="text"/>
+            </div>
+            <br>
+            <br>
+            <div>
+                <label for="age" style="font-weight:bold">Employee Age: </label>
+                <input id="emp_age" name="age" required type="number"/>
+            </div>
+            <br>
+            <br>
+
+            <label style="font-weight:bold">Select your gender: </label>
+            <br>
+            <br>
+            <input id="male" name="gender" value="Male" type="radio" selected/>
+            <img src="img/1.jpg"/>
+            <input id="female" required name="gender" value="Female" type="radio"/>
+            <img src="img/2.jpg"/>
+            <br>
+            <br>
+            <br>
+            <div>
+                <label for="color" style="font-weight:bold">select your favourite color: </label>
+                <select id="color" name="color" value="color">
+                    <option value="red">Red</option>
+                    <option value="green">Green</option>
+                    <option value="blue">Blue</option>
+                </select>
+            </div>
+            <br>
+            <br>
+            
+            <input type="submit" value="Register" onclick="MoveToProfile()"/>
+
+        <script src="cookie.js"></script>
+        <script src="script.js"></script>
+        
+</body>
+</html>
